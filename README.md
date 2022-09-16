@@ -16,6 +16,8 @@ The first one is done with using Cyclic Rolling Hash Function. I will explain my
 6. I used the same hash function to the second string's keys but now I didn't add them into the list. I just checked whether the hash'th index of the list is empty or not.
 7. If it is empty I just simply wrote that "There are no collisions." to the file. Otherwise, I checked whether they are really the same bit-by-bit. If they are the same I wrote the index of the both same keys on the strings.
 
+Also, I created the linked list class with Nodes.
+
 The second one is much more easier because I used the built-in hash function and the dictionary of Python.
 
 1. Since there are two strings I will firstly take the first string and hash the keys into a dictionary.
